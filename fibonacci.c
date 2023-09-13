@@ -37,7 +37,7 @@ int fibonacci(int first_number, int second_number)
       return (0);
    else 
    {
-      next_number = vfirst_number + second_number;
+      next_number = first_number + second_number;
       first_number = second_number;
       second_number = next_number;
       printf("%d  ", next_number);
